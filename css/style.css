@@ -1,0 +1,179 @@
+/*font-links*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+  /*font-family connect start*/
+@font-face{
+	src: url(../fonts\roboto/roboto-regular.ttf);
+	font-family: 'roboto', sans-serif;
+}
+
+@font-face{
+	src: url(../fonts\lato/lato-regular.ttf);
+	font-family: 'lato', sans-serif;
+}
+/*font-family connect end*/
+
+/*common css*/
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.c-padding{
+padding-top: 80px;
+padding-bottom: 100px;
+}
+/*common css end*/
+
+/*header start*/
+header{
+	background-color: #ffff;
+	padding: 20px 0;
+}
+.custom-nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	padding: 0 30px !important;
+	font-size: 18px;
+	font-weight: 700;
+	color:#8e8e8e!important;
+}
+.menu ul li:last-child a{
+	padding-right:0 !important ;
+}
+.menu ul li a:hover{
+	color: #333333 !important;
+	cursor: pointer;
+}
+
+/*modal start*/
+.d-flex {
+    padding: 20px;
+}
+
+/*header end*/
+
+/*slider start*/
+.slider{
+	background-image: url(../images/slide.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center ;
+}
+.custom-item{
+	margin: 270px 0 220px;
+}
+.c-h1{
+	font-family: 'lato', sans-serif;
+	font-size: 60px;
+	font-weight:600;
+	color: white;
+}
+.c-p{
+	color: white;
+	font-family: 'roboto', sans-serif;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.btn-custom{
+	color: black;
+	background-color: white;
+	padding: 10px;
+	margin-top: 40px;
+}
+.c-icon{
+	padding-left: 15px;
+}
+.custom-btn {
+	font-size: 20px;
+    border-style: none;
+    background-color: unset;
+}
+.custom-btn:hover {
+    color: white;
+}
+.pipesign{
+	padding-left: 20px;
+}
+.pipe2{
+	font-size: 20px;
+}
+.icon-hide{
+	background-image: unset;
+}
+.icon-hide{
+	background-image: unset;
+}
+
+/*slider end*/
+/*services section start*/
+.custom-service{
+	margin-bottom: 200px;
+}
+.pipe-center{
+	width: 2px;
+	height: 50px;
+	background-color: black;
+}
+
+.c-welcome{
+padding-top: 80px;
+}
+
+.c-welcome h1{
+	margin-bottom: 15px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+	font-family: 'Lato', sans-serif;
+}
+.services-p{
+
+}
+.service-item{
+	padding: 55px 15px 35px;
+	margin-top: 80px;
+	border: 1px solid #8e8e8e;	
+}
+
+.service-icon{
+	margin: -85px auto 0;
+	width: 70px;
+    margin-top: -85px;
+    background-color: white;
+}
+
+.service-icon i{
+	font-size: 60px;
+	color: #8e8e8e;
+}
+.service-h2{
+	padding: 20px 0;
+}
+.service-p{
+	padding-bottom: 15px;
+}
+.arrow-icon{
+	padding-left: 15px;
+}
+.service-item:hover{
+	border: 1px solid #333333;	
+}
+.service-item:hover .service-icon i{
+	color:  #333333;	
+}
+.service-item:hover .service-a{
+	color:  #333333;	
+}
+
+
+
+/*services section start*/
+
+
+
+
+
+
